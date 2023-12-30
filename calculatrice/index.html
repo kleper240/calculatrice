@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+
+    <div class="calculatrice">
+        <div class="ecran" id="ecran"> 0 </div>
+        <div class="touches">
+            <button id="supprimer" onclick="supprimer()">AC</button>
+            <button class="plusMoins" onclick="afficher('(')">(</button>
+            <button class="pourcentage" onclick="afficher(')')">)</button>
+            <button class="action" onclick="afficher('/')">/</button>
+            <button class="num" onclick="afficher('7')">7</button>
+            <button class="num" onclick="afficher('8')">8</button>
+            <button class="num" onclick="afficher('9')">9</button>
+            <button class="action" onclick="afficher('*')">×</button>
+            <button class="num" onclick="afficher('4')">4</button>
+            <button class="num" onclick="afficher('5')">5</button>
+            <button class="num" onclick="afficher('6')">6</button>
+            <button class="action" onclick="afficher('-')">-</button>
+            <button class="num" onclick="afficher('1')">1</button>
+            <button class="num" onclick="afficher('2')">2</button>
+            <button class="num" onclick="afficher('3')">3</button>
+            <button class="action" onclick="afficher('+')"  onclick="addition()">+</button>
+            <button class="num" id="zero" onclick="afficher('0')">0</button>
+            <button class="num" onclick="afficher('.')">.</button>
+            <button class="action"  id= "egal" onclick="calculer()">=</button>
+            
+        </div>
+       
+    </div>
+
+    <script src="calculatrice.js"></script>
+</body>
+</html>
