@@ -15,7 +15,7 @@ Ceci est une application web de calculatrice simple construite en utilisant HTML
 2. Ouvrez le fichier `index.html` dans un navigateur web.
 3. Cliquez sur les boutons pour saisir des nombres et effectuer des calculs.
 4. Utilisez des parenthèses pour définir l'ordre des opérations.
-5. Appuyez sur le bouton DEL pour effacer la calculatrice.
+5. Appuyez sur le bouton AC pour effacer la calculatrice.
 
 ## Contribution
 
